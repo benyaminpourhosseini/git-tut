@@ -1,0 +1,58 @@
+1-git init(initialize dir - now this  dir control by git)
+2-create file in this dir
+3-git status ---> output:untrackred file(this file doesn't track by git
+4-git add file ---.output:now file is tracked by git and is in stage state
+5- git commit -m 'explanations'
+
+Note: you can use file name for add or use:
+git add *.py or *.txt
+git add -A(change all fle from untracked state to stage state)
+
+6- git log ---->shows all commit we done
+
+7- git diff HEAD --->when we change a file, diff command compare current state(last commit) of file with past state of file and show changes, it's not depends on that a file has been staged or not
+
+8- git diff --staged ----> we servey file before commit it
+
+9- git reset file ---> unstage file 
+
+10- git checkout -- file --->convert file to last commit(this command ignore our last modify)
+
+11-git commit --->if we don't use -m, terminal opens a editor for write discriptions
+
+12- git branch --->show us that we are on which branch of the project
+
+13- git branch 'the name of branch' --->create a branch
+
+14-git checkout branchname --->switch to branchname
+
+15-touch file ---->create a file
+
+16-git merge subbranch---->merge subbranch to
+ master branch
+
+17-git rm file ---->git remove a file, this file removed on current branch
+
+18- git branch -d branchname---> this command uses for delete a branch
+
+19-git clone 'address from github'--->make a dir on your local computer
+
+20-git push origin(github site) master(my code)---->place my code on my github repo
+
+21-git pull origin master --->place  my changes from my git repo on my local pc
+
+
+22-git remote add origin git@github.com:benyaminpourhosseini/git-tut.git -----> we make a remote with name origin and with above address
+
+23-git push -u origin master ----->push master on origin 
+
+
+
+
+
+
+
+
+
+
+
